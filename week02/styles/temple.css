@@ -14,7 +14,8 @@ h1 {
 
 /*main image*/
 img {
-    width: 500px height: auto;
+    width: 500px;
+    height: auto;
     box-shadow: 0 0 20px gray;
 }
 
