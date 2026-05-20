@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: darkblue;
     --secondary-color: #eee;
@@ -37,12 +43,16 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: var(--secondary-color);
-    color: var(--text-color);
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
 }
 
 aside img {
@@ -51,6 +61,8 @@ aside img {
 }
 
 main img {
+    /* you most likely will have other CSS declarations here */
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -66,4 +78,13 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* class selector*/
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
