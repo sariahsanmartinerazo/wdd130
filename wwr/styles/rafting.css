@@ -80,3 +80,8 @@ h1 {
     float: right;
     width: 125px;
 }
+
+.socialmedia img {
+    width: 40px;
+    height: auto;
+}
