@@ -29,10 +29,14 @@ footer {
     margin: 0 auto;
 }
 
-h1,
-h2 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
 }
 
 nav,
@@ -61,7 +65,15 @@ article {
     position: absolute;
     top: 20px;
     left: 20px;
-    color: withe;
+    color: white;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: var(--secondary-color);
+    padding: 1rem;
 }
 
 h1 {
