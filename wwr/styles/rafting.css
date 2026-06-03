@@ -29,6 +29,12 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+}
+
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -96,4 +102,13 @@ h1 {
 .socialmedia img {
     width: 40px;
     height: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.history-content {
+    display: grid;
 }
