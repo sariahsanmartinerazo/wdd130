@@ -112,3 +112,9 @@ nav ul {
 .history-content {
     display: grid;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
