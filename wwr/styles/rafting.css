@@ -118,3 +118,13 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adventure-gallery img {
+    width: 150px;
+    height: auto;
+}
