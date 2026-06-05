@@ -107,10 +107,24 @@ h1 {
 nav ul {
     display: flex;
     justify-content: space-evenly;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-weight: bold;
 }
 
 .history-content {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.history-content img {
+    width: 100%;
+    height: auto;
 }
 
 footer {
@@ -122,6 +136,7 @@ footer {
 .adventure-gallery {
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .adventure-gallery img {
