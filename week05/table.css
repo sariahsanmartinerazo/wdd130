@@ -2,6 +2,8 @@ table {
     border-collapse: collapse;
     border: 2px solid rgb(140 140 140);
     letter-spacing: 1px;
+    margin: 20px auto;
+    width: 600px;
 }
 
 th,
@@ -16,4 +18,16 @@ tfoot tr {
     background-color: rgb(0 0 0);
     color: white;
     font-weight: 700;
+}
+
+tbody th {
+    text-align: left;
+    padding-left: 16px;
+    font-weight: bold;
+}
+
+tfoot th,
+tfoot td {
+    font-weight: bold;
+    font-size: 1.1rem;
 }
