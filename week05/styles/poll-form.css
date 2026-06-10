@@ -27,6 +27,7 @@ form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
+    border: 1 px solid rgb(0, 0, 0 / 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
     display: grid;
@@ -48,7 +49,7 @@ legend {
 
 label,
 input,
-::-webkit-scrollbar-button,
+button,
 select,
 textarea {
     font-family: Roboto, Arial, sans-serif;
