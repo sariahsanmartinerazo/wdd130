@@ -139,3 +139,81 @@ footer {
     width: 150px;
     height: auto;
 }
+
+.contact-info {
+    display;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.contact-info iframe {
+    width: 100%;
+    height: 300px;
+    border;
+}
+
+.employees {
+    margin: 2rem 0;
+}
+
+.employee-gallery {
+    display;
+    justify-content;
+    text-align;
+}
+
+.employee-gallery img {
+    width: 200px;
+    height;
+}
+
+.contact-form form {
+
+    display;
+
+    gap: 1rem;
+
+    background: #eee;
+
+    padding: 2rem;
+
+    border-radius: 10px;
+
+}
+
+.contact-form input,
+.contact-form textarea {
+
+    padding: .75rem;
+
+    font-size: 1rem;
+
+}
+
+.contact-form textarea {
+
+    resize;
+
+}
+
+.contact-form button {
+
+    background-color(--primary-color);
+
+    color;
+
+    border;
+
+    padding: 1rem;
+
+    font-size: 1rem;
+
+    cursor;
+
+}
+
+.contact-form button {
+
+    background-color(--accent1-color);
+
+}
