@@ -32,7 +32,7 @@
             <p>Email: info@whitewaterrafting.com</p>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.840174168043!2d-96.77502632532865!3d19.33274044386346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c4c9ee9837e4d7%3A0x2759977f46a59fe5!2sArmon%C3%ADa%20Rafting!5e0!3m2!1ses-419!2smx!4v1781629601643!5m2!1ses-419!2smx"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              width="600" height="450" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </section>
@@ -61,7 +61,7 @@
         </section>
         <section class="contact-form">
             <h2>Send Us a Message</h2>
-            <form>
+            <form action="#" method="post">
                 <label for="fullname">
                     Your Name
                 </label>
@@ -70,24 +70,26 @@
                     Email Address
                 </label>
                 <input type="email" id="useremail" name="useremail" required>
-                <p>Purpose of Message</p>
-                <label>
-                    <input type="radio" name="purpose" value="general">
-                    General Inquiry
-                </label>
-                <label>
-                    <input type="radio" name="purpose" value="reservation">
-                    Reservation Question
-                </label>
-                <label>
-                    <input type="radio" name="purpose" value="website">
-                    Website Suggestion
-                </label>
+
+                <fieldset>
+                    <legend>Purpose of Message</legend>
+                    <label>
+                        <input type="radio" name="purpose" value="general">
+                        General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="website">
+                        Website Suggestion
+                    </label>
+                </fieldset>
                 <label for="message">
                     Message
                 </label>
-                <textarea id="message" name="message" rows="6">
-                </textarea>
+                <textarea id="message" name="message" rows="6"></textarea>
                 <label>
                     <input type="checkbox" id="newsletter" name="newsletter">
                     Please subscribe me to the monthly newsletter
