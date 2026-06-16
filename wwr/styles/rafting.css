@@ -149,7 +149,7 @@ footer {
 .contact-info iframe {
     width: 100%;
     height: 300px;
-    border;
+    border: none;
 }
 
 .employees {
@@ -157,37 +157,28 @@ footer {
 }
 
 .employee-gallery {
-    display;
-    justify-content;
-    text-align;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .employee-gallery img {
     width: 200px;
-    height;
+    height: auto;
 }
 
 .contact-form form {
-
-    display;
-
+    display: grid;
     gap: 1rem;
-
     background: #eee;
-
     padding: 2rem;
-
     border-radius: 10px;
-
 }
 
 .contact-form input,
 .contact-form textarea {
-
     padding: .75rem;
-
     font-size: 1rem;
-
 }
 
 .contact-form textarea {
