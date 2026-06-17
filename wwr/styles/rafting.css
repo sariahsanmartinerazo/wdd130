@@ -141,6 +141,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--accent2-color);
 }
 
 .adventure-gallery {
