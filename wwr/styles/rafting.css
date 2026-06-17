@@ -187,7 +187,7 @@ footer {
 }
 
 .contact-form button {
-    background-color(--primary-color);
+    background-color: var(--primary-color);
     color: white;
     border: none;
     padding: 1rem;
@@ -196,5 +196,5 @@ footer {
 }
 
 .contact-form button:hover {
-    background-color(--accent1-color);
+    background-color: var(--accent1-color);
 }
