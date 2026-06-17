@@ -182,29 +182,19 @@ footer {
 }
 
 .contact-form textarea {
-
-    resize;
+    resize: vertical;
 
 }
 
 .contact-form button {
-
     background-color(--primary-color);
-
-    color;
-
-    border;
-
+    color: white;
+    border: none;
     padding: 1rem;
-
     font-size: 1rem;
-
-    cursor;
-
+    cursor: pointer;
 }
 
-.contact-form button {
-
+.contact-form button:hover {
     background-color(--accent1-color);
-
 }
