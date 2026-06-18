@@ -294,3 +294,25 @@ footer a {
     padding: 1rem;
     border: 1px solid #ccc;
 }
+
+.newsletter {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.newsletter form {
+    display: grid;
+    gap: 1rem;
+}
+
+.newsletter input {
+    padding: .75rem;
+}
+
+.newsletter button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 1rem;
+}
