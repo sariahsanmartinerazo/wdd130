@@ -34,6 +34,8 @@ header {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
 }
 
 header img {
@@ -93,6 +95,7 @@ section {
     background-color: var(--secondary-color);
     padding: 1rem;
     color: var(--accent1-color);
+    border-radius: 8px;
 }
 
 .hero article img {
@@ -144,7 +147,7 @@ footer a {
 
 .adventure-gallery {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     gap: 1rem;
     flex-wrap: wrap;
