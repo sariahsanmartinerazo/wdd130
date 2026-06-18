@@ -81,6 +81,7 @@ article {
     max-width: 350px;
     background-color: var(--secondary-color);
     padding: 1rem;
+    color: black;
 }
 
 .hero article img {
@@ -122,6 +123,7 @@ footer {
     align-items: center;
     background-color: var(--accent2-color);
     color: white;
+    padding: 1rem;
 }
 
 .adventure-gallery {
