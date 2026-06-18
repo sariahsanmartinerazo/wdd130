@@ -25,7 +25,8 @@ body {
 header,
 main,
 footer {
-    width: 840px;
+    width: 100%;
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -45,8 +46,14 @@ h2 {
     color: var(--accent1-color);
 }
 
-nav,
-p,
+nav {
+    margin: 16px;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
 section {
     margin: 16px;
     padding: 8px;
@@ -85,7 +92,7 @@ section {
     max-width: 350px;
     background-color: var(--secondary-color);
     padding: 1rem;
-    color: black;
+    color: var(--accent1-color);
 }
 
 .hero article img {
@@ -131,6 +138,10 @@ footer {
     padding: 1rem;
 }
 
+footer a {
+    color: white;
+}
+
 .adventure-gallery {
     display: flex;
     justify-content: space-between;
@@ -174,7 +185,7 @@ footer {
 .contact-form form {
     display: grid;
     gap: 1rem;
-    background: #eee;
+    background: #f5f5f5;
     padding: 2rem;
     border-radius: 10px;
 }
