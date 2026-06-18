@@ -213,3 +213,22 @@ footer {
 .contact-form button:hover {
     background-color: var(--accent1-color);
 }
+
+.cta {
+    text-align: center;
+    padding: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.cta-button:hover {
+    background-color: var(--accent1-color);
+}
